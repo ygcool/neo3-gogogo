@@ -7,6 +7,6 @@ type RpcNep17Balances struct {
 
 type RpcNep17Balance struct {
 	AssetHash        string `json:"assethash"`
-	Amount           uint64 `json:"amount"`
+	Amount           string `json:"amount"`
 	LastUpdatedBlock int    `json:"lastupdatedblock"`
 }
